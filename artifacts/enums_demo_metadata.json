@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_clientAddress",
+						"type": "address"
+					}
+				],
+				"name": "deliver",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_clientAddress",
+						"type": "address"
+					}
+				],
+				"name": "getOrderStep",
+				"outputs": [
+					{
+						"internalType": "enum enums_demo.step",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_clientAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_sku",
+						"type": "uint256"
+					}
+				],
+				"name": "order",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_clientAddress",
+						"type": "address"
+					}
+				],
+				"name": "ship",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/enums.sol": "enums_demo"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/enums.sol": {
+			"keccak256": "0xc84ce39befccbaacac3cd2eb6151ff8814d83dbfe88c017028bf739c5599ea38",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ea104d995ae381267ce70c116a2a261d0980ac5864224db9c8d5bf245047c73a",
+				"dweb:/ipfs/QmcJNqDoVa8CYfmR7qCP3sL4tvyQsH2X3y1qm7iTuPyC6s"
+			]
+		}
+	},
+	"version": 1
+}
