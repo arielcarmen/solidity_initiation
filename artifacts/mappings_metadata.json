@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_adresse",
+						"type": "address"
+					}
+				],
+				"name": "getAddressBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mappings.sol": "mappings"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mappings.sol": {
+			"keccak256": "0x9aeb5677e29aa8797603434836814b9f542ecb19c31e0fd8454b39d8b7684a8e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b8472bd1ca6da0bd814f80c8860c81b875097403eaba1e049f8ca5dc020a055",
+				"dweb:/ipfs/QmXVjohTh4wwmxCCPiu32jot7nA2TsmHwVzkj75e2PYdEW"
+			]
+		}
+	},
+	"version": 1
+}
