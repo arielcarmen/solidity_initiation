@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.30;
 
-contract enums_demo {
+contract EnumsDemo {
 
-    enum step {ordered, shipped, delivered}
+    enum step {ordered, shipped, delivered} // no ';' needed for this
 
     struct product {
         uint _sku;
-        enums_demo.step _step;
+        EnumsDemo.step _step;
     }
 
     mapping(address => product) Orders;

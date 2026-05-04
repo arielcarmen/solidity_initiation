@@ -53,7 +53,7 @@ contract StudentManagement {
 
     function mean(address _studentAddress) public view returns (uint){
         require(msg.sender == owner, "Owner required");
-        bytes memory _nameOnAddress = bytes(students[_studentAddress].name);
+        bytes memory _nameOnAddress = bytes(students[_studentAddress].name); // bytes requires less gas than strings
         require(_nameOnAddress.length > 0, "This student is not registered");
         uint _total = 0;
 

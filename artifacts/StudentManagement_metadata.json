@@ -118,11 +118,11 @@
 	},
 	"sources": {
 		"contracts/StudentManagement.sol": {
-			"keccak256": "0x834c733f574f3043ee7fea4530bd6a90b8ea677bfe049f9d7d9410fba77243e0",
+			"keccak256": "0x0c01fbba0e31a247452109513d23ccd0ab634e772b64c1990049644eed313221",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://89462ed0b5380f0168db4c2ff5447f3a023551531b116d8d2ea3c23e4ce73e73",
-				"dweb:/ipfs/QmTreJi77eDAMwCJ7WTr3tp3N8xviwL3GoYfTFDL5JJHc9"
+				"bzz-raw://73a24cd4544f182ac05c5ee5c4981ff48b70ddaeb0aa22e3042cd00c07902986",
+				"dweb:/ipfs/QmfAuuz79peE4fKgjFEdyEvbBTpgKF5r7vYyxYuM1M7m2J"
 			]
 		}
 	},

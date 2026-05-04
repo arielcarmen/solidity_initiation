@@ -9,11 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_clientAddress",
+						"name": "_studentAddress",
 						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_mark",
+						"type": "uint256"
 					}
 				],
-				"name": "deliver",
+				"name": "addMark",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -22,16 +27,16 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_clientAddress",
+						"name": "_studentAddress",
 						"type": "address"
 					}
 				],
-				"name": "getOrderStep",
+				"name": "getStudentName",
 				"outputs": [
 					{
-						"internalType": "enum enums_demo.step",
+						"internalType": "string",
 						"name": "",
-						"type": "uint8"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -41,29 +46,35 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_clientAddress",
+						"name": "_studentAddress",
 						"type": "address"
-					},
+					}
+				],
+				"name": "mean",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_sku",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "order",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_clientAddress",
+						"name": "_studentAddress",
 						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
 					}
 				],
-				"name": "ship",
+				"name": "setStudentName",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -82,7 +93,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/enums.sol": "enums_demo"
+			"contracts/exercise.sol": "ClassroomManagent"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -96,12 +107,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/enums.sol": {
-			"keccak256": "0x91d29d97df9a231c3bdfe5fb0032349f4a8024f8165e57ad29c5fb87523a00a0",
+		"contracts/exercise.sol": {
+			"keccak256": "0x6dc20c82e1fdb177c27e1c8e3c3dbbab22222088b6f4ff69783cebc76b020377",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6931f993a597b705fbd9392d6ff65f6fe62bef64d4227a1b6eb1442735574a0c",
-				"dweb:/ipfs/QmURwXLjeawRFKhVTLNEuiDfMu6fQ3hth7qzVgng3DbV2e"
+				"bzz-raw://745753f42341334568ddd9fe37e9ea285cfebe5462144d288738e4e20037c0e6",
+				"dweb:/ipfs/QmR1oyeBYoctYhtCdQt8wN4yh5FE6gzV5nLwugnLU6ahn5"
 			]
 		}
 	},

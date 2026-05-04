@@ -42,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/mappings.sol": "mappings"
+			"contracts/mappings.sol": "Mappings"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -57,11 +57,11 @@
 	},
 	"sources": {
 		"contracts/mappings.sol": {
-			"keccak256": "0x9aeb5677e29aa8797603434836814b9f542ecb19c31e0fd8454b39d8b7684a8e",
+			"keccak256": "0x72a505f9b733bf958fe718e9839a5f442f9ef96902787e9b59576053560608e0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3b8472bd1ca6da0bd814f80c8860c81b875097403eaba1e049f8ca5dc020a055",
-				"dweb:/ipfs/QmXVjohTh4wwmxCCPiu32jot7nA2TsmHwVzkj75e2PYdEW"
+				"bzz-raw://14d624130bacb2249ee294c1efd28c76dd39435a48f465bfa2ea37366d6170b8",
+				"dweb:/ipfs/QmarBnGLVDrHpPHiTXkRM2vp2WgoMHeUwQpZEdwC8X4s2j"
 			]
 		}
 	},

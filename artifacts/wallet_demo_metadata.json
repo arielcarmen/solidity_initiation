@@ -77,11 +77,11 @@
 	},
 	"sources": {
 		"contracts/tp_wallet.sol": {
-			"keccak256": "0xb981f79188ad5c8bd3d921064f43084b2c0ff3b501c5d5ca3bb197ad40869c9d",
+			"keccak256": "0x7803e465c2f3716833b536f2ae7394c2c06922c9bb37556f6cfb8291ddb21997",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1c8b878d94b642be97f672e0eba6acdc586fcebbc52eefa3f90dae275d55daca",
-				"dweb:/ipfs/QmWi7af5kiGw1S3sdfdLbVFmzsF8Qy34t1AJMzW6dnEGxc"
+				"bzz-raw://6b30855710d5796e76e0c5603650a76a53da28d1c7e6baa7c794521122090319",
+				"dweb:/ipfs/QmfWzwc2Am4Q39hoE67Ht8bMzRMqJveCo2GXnqW7jfJUVy"
 			]
 		}
 	},

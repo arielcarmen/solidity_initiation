@@ -20,12 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "getNumPayments",
+				"name": "getLastPerson",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -49,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/structs.sol": "strucures"
+			"contracts/payment.sol": "payment"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -63,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/structs.sol": {
-			"keccak256": "0x7371f019a657af0ad99089e80952e8782c46d04cd04ba582066751f9157b6888",
+		"contracts/payment.sol": {
+			"keccak256": "0x2fc0785ba436fd63894dda6ace8be660437898527c4f76e959634bdd27c91971",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3ec8ce787c0a28a4814467e0d36b86ec4ddb8984e263b1de2d4942b86f0f2ca0",
-				"dweb:/ipfs/QmWPjiXzNWU3AQsmYZHA4HKcKSzQETzo7ejygdTGt9kmm7"
+				"bzz-raw://060d2d970b9934bd7ac2d8e9e87aaf67185bae6a42530c9afdb961b7815de9fb",
+				"dweb:/ipfs/QmUJQ31HN5JhmLqTJRAv8iGJXfSAqigkSfC7JAdAcErJ8N"
 			]
 		}
 	},

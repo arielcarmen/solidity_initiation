@@ -15,7 +15,7 @@ contract payment{
     }
 
     receive() external payable {
-        lastPerson = msg.sender; // recupere l'adresse de la personne qui a envoye de l'argent
+        lastPerson = msg.sender; // get address of the caller 
         balance = balance + msg.value;
     }
 }

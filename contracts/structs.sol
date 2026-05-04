@@ -3,7 +3,7 @@ pragma solidity 0.8.30;
 
 contract strucures {
 
-    struct balance {
+    struct balance { // Class like in solidity
         uint money;
         uint numPayments;
     }

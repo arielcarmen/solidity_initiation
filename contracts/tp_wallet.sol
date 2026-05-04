@@ -15,13 +15,13 @@ contract wallet_demo {
     }
 
     function getContractBalance() public view returns (uint){
-        return address(this).balance; // recupere le solde sur le contrat
+        return address(this).balance; // this line returns the balance on the contract
     }
 
     function withdrawAllMoney(address payable _to) public{
         uint _amount = Wallets[msg.sender].balance;
         Wallets[msg.sender].balance = 0;
-        _to.transfer(_amount);
+        _to.transfer(_amount); // sends the money to the "_to" address
     }
 
     receive() external payable {

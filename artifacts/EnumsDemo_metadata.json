@@ -29,7 +29,7 @@
 				"name": "getOrderStep",
 				"outputs": [
 					{
-						"internalType": "enum enums_demo.step",
+						"internalType": "enum EnumsDemo.step",
 						"name": "",
 						"type": "uint8"
 					}
@@ -82,7 +82,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/enums.sol": "enums_demo"
+			"contracts/enums.sol": "EnumsDemo"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -97,11 +97,11 @@
 	},
 	"sources": {
 		"contracts/enums.sol": {
-			"keccak256": "0x91d29d97df9a231c3bdfe5fb0032349f4a8024f8165e57ad29c5fb87523a00a0",
+			"keccak256": "0x3661de70e96e2083c92e61699d7282e4168f25272148318658275c90cc85f5bf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6931f993a597b705fbd9392d6ff65f6fe62bef64d4227a1b6eb1442735574a0c",
-				"dweb:/ipfs/QmURwXLjeawRFKhVTLNEuiDfMu6fQ3hth7qzVgng3DbV2e"
+				"bzz-raw://16d0c0d7eab2cd276d1a0e68d82b90d3f8af79a49d0663b26b6f56047ee461c5",
+				"dweb:/ipfs/QmaVS3KKWrUtyHuDWJh4RA9caJtPxf8o7QVvBUhsH13Uzi"
 			]
 		}
 	},

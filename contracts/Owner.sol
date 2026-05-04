@@ -7,7 +7,7 @@ contract Owner {
     bool paused;
 
     constructor() {
-        owner = msg.sender;
+        owner = msg.sender; // initiated at the contract deployment
     }
 
     function pauseOrLaunch() public {

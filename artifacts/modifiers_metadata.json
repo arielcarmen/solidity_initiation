@@ -6,6 +6,46 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "destroy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pauseOrLaunch",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -13,64 +53,14 @@
 						"type": "uint256"
 					}
 				],
-				"name": "addNumber",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					}
-				],
-				"name": "deleteNumberAtindex",
+				"name": "setNumber",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "doubleArrayValues",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_newNumber",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					}
-				],
-				"name": "editNumberAtIndex",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					}
-				],
-				"name": "getNumberAtIndex",
+				"name": "showCount",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -95,7 +85,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/arrays.sol": "Arrays"
+			"contracts/modifiers.sol": "Modifiers"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -109,12 +99,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/arrays.sol": {
-			"keccak256": "0x0de9e11f06a196fda520f78982f05d5b8bf5ad7c4b23c838057f5e3a2e74be1a",
+		"contracts/Owner.sol": {
+			"keccak256": "0x6970b172ce1a7897e8857b46b11d67dd52ac75307b8b1cc1d03fd4614d8d61fc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://640e5189c5195fb19d862a35e4bd22f46fc37580cf0437d03b124f3c4581c41a",
-				"dweb:/ipfs/QmNZRAtgFsAadHshzwEJz3zvDXEnivsrcrCc9eahCfRBxL"
+				"bzz-raw://85386a191d2da37672e8bde65d1330cda7fe24a34fdf01dc1ca2d78873c9db42",
+				"dweb:/ipfs/QmYUBizc9MA7EdrzCkzVKdUavWgCt55b9iHjVP8BJn12qN"
+			]
+		},
+		"contracts/modifiers.sol": {
+			"keccak256": "0x611399b3955c0a759a83bce8b147d7bb27d788b75c3fb44b201e3e21a204cba0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e63a327fdfe13c0f843b9023443abda98405deb626f0c342958530ae6dc41a50",
+				"dweb:/ipfs/QmQhmwRJzPzBacWo7gbJSWehFUmSPoC5CmbCgAGZyGugmm"
 			]
 		}
 	},

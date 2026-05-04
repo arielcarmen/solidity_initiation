@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.30;
 
-contract arrays{
+contract Arrays{
 
     uint[] numbers;
 
@@ -14,7 +14,7 @@ contract arrays{
     }
 
     function deleteNumberAtindex(uint _index) public {
-        delete numbers[_index];
+        delete numbers[_index]; // delete an element in the array
     }
 
     function getNumberAtIndex(uint _index) public view returns(uint) {
