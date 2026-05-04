@@ -10,6 +10,11 @@ contract Owner {
         owner = msg.sender; // initiated at the contract deployment
     }
 
+    modifier isOwner {
+        require(msg.sender == owner, "Owner required");
+        _;
+    }
+
     function pauseOrLaunch() public {
         require(msg.sender == owner, "Owner required");
         paused = !paused;

@@ -6,26 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "_term",
+						"type": "uint256"
 					}
 				],
-				"name": "destroy",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getNumber",
+				"name": "fibo",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -37,23 +25,22 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "pauseOrLaunch",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_number",
+						"name": "_counter",
 						"type": "uint256"
 					}
 				],
-				"name": "setNumber",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -70,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Owner.sol": "Owner"
+			"contracts/loops.sol": "LoopsAndConditions"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -84,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Owner.sol": {
-			"keccak256": "0x29c2d1cd28d7aa4be74c8549febe8b10d89aa9508265d1c714daec696d14fdcf",
+		"contracts/loops.sol": {
+			"keccak256": "0xb745c6bd70b45f052c7c8b324100fef30f75426a6bf3dfe006bf714fceffdb20",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fbc54a6e9a101d454911761f7ee0025bcdfd8207da5b4385b1d703aa4beeed00",
-				"dweb:/ipfs/QmaqsTKdMKjDv4tWpRjcdvRYb4FHKrQSBzvS8i22mVhwcY"
+				"bzz-raw://8da3bddaa7d09e3ad01ef54cdd049b321134807915453f046c825f4d360b80f4",
+				"dweb:/ipfs/QmSZEWRXpSP9KPqSmoVtqjRn2FTNA3zdAkqye2bgwpaVLv"
 			]
 		}
 	},
