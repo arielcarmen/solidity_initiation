@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_numberToDouble",
+						"type": "uint256"
+					}
+				],
+				"name": "double",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/view_vs_pure.sol": "ViewVsPure"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/view_vs_pure.sol": {
+			"keccak256": "0xecb4c54e9b31ff5a6dc95ade52c33cb9fa6fa7e53063c49e649b5dac3f4fd428",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://02588e0bffebad342195a3f5418bfe2bfeaa9a1e16a2b0f520ad53c6d5e4315d",
+				"dweb:/ipfs/QmaJXcx8QzYPXw8eYnWEPYDt1NtJDc8kNPzwWoUniKoe2f"
+			]
+		}
+	},
+	"version": 1
+}

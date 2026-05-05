@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_by",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "numberAdded",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "addNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/events.sol": "events"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/events.sol": {
+			"keccak256": "0x305d85f94dd3060418f018d2dee66c7bdf56080429e3ecbf5030b1eda5302975",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://67bcca4d79dbe0c48826671ea5db17b6161fd64cbc334ad14c0b7ce026f359ac",
+				"dweb:/ipfs/QmPwJYNyuspe1RXrR34ceyd1FxDHQB9GBbuwspS2mRQSXb"
+			]
+		}
+	},
+	"version": 1
+}

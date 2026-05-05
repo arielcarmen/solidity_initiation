@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "callGetNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "callSetNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "setAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/C2.sol": "C2"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/C1.sol": {
+			"keccak256": "0x0650bf0702eefb32bf06da0593404db44db2a838494a4b9896e532a01be74af6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3eacf15ab8a1d2f778d8b79852e23fd2f88c7bab15f8da30248057a85ed82920",
+				"dweb:/ipfs/QmWebL5k5WynArBg3yyGsDGdE4CjeqGgV36arqqEmZoXG5"
+			]
+		},
+		"contracts/C2.sol": {
+			"keccak256": "0xbb3c752bc40ef92deb61b8f7fa479ed1e07ad9d314497d4506177b77c0f7caec",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dcf5b5d85e7f90dfe3c85574b6950157459e53b48ab6c4df2252ba8c67d5a8d3",
+				"dweb:/ipfs/QmSdRdyYgzqWenVxnnJGX6bCL6gpza7Ac7U4LWK3m1d5YQ"
+			]
+		}
+	},
+	"version": 1
+}

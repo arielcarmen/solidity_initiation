@@ -1,0 +1,68 @@
+{
+	"id": "c0eb9e7660c287f254c8c59cae4dd0c3",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.30",
+	"solcLongVersion": "0.8.30+commit.73712a01",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/function_calls.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.30;\n\n// Interfaces are useful to make contracts communicate with each other\n// This example will be dispached into C1 and C2 files\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/function_calls.sol": {
+				"ast": {
+					"absolutePath": "contracts/function_calls.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"0.8",
+								".30"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:23:0"
+						}
+					],
+					"src": "32:151:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
